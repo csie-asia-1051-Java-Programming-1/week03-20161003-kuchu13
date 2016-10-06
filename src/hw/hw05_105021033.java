@@ -7,13 +7,13 @@ public class hw05_105021033 {
 	public static void main(String[] args) {
 
 	    	Scanner scn = new Scanner(System.in);
-	    	System.out.println("½Ð¿é¤J¤@¾ã¼Æ");
+	    	System.out.println("è«‹è¼¸å…¥ä¸€æ­£æ•´æ•¸");
 	    	int n = scn.nextInt();
 	    	int result = 0;
 	    	for(int i=1;i<=n;i++) { 
 	        	result += (i*(i+1));
 	        }
-	        System.out.println("µ²ªG:"+result);
+	        System.out.println(result);
 	    }
 	   
 	}

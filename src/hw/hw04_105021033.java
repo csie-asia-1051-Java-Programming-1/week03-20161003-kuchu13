@@ -6,16 +6,15 @@ public class hw04_105021033 {
 
 	public static void main(String[] args) {
 	
-			    	Scanner scn = new Scanner(System.in);
-			    	System.out.println("½Ğ¿é¤J¤@¾ã¼Æ");
-			    	int n = scn.nextInt();
-			    	int result = 1;
+		Scanner scn = new Scanner(System.in);
+		System.out.println("è«‹è¼¸å…¥ä¸€æ­£æ•´æ•¸");
+		int n = scn.nextInt();
+		int result = 1;
 			    	
-			        while(n>0) { 
-			        	result = result * n;
-			        	n--;
-			        }
-			        System.out.println("µ²ªG:"+result);
-			    }
-			   
+		while(n>0) { 
+		result = result * n;
+				n--;
 			}
+		System.out.println(result);
+		}
+	}
